@@ -1,3 +1,5 @@
+let port = process.env.PORT || '3000';
+let host='0,0,0,0'
 const http = require('http');
 const hostname = 'localhost';
 const port = 3000;
